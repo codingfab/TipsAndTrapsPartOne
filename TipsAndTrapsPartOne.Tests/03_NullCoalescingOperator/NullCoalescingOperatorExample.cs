@@ -27,6 +27,24 @@ namespace TipsAndTrapsPartOne.Tests
 
             result = name ?? "no name provided";
         }
-        
+
+        [TestMethod]
+        public void NullableTypes()
+        {
+            int? age = null;
+
+            var result = age ?? 0;
+        }
+
+        [TestMethod]
+        public void Chaining()
+        {
+            int? localDefaultAge = null;
+            int globalDefaultAge = 99;
+
+            int? age = null;
+            int result = age ?? localDefaultAge ?? globalDefaultAge;
+        }
+
     }
 }
