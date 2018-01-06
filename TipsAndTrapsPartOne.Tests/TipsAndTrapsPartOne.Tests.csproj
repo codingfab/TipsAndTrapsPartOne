@@ -50,7 +50,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="DebuggerBrowsableAttributeExample.cs" />
     <Compile Include="DebuggerDisplayAttributeExample.cs" />
+    <Compile Include="NullCoalescingOperatorExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
