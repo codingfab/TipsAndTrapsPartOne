@@ -46,10 +46,12 @@
     <Compile Include="01_DebuggerDIsplayAttribute\PersonWithDebuggerDisplay.cs" />
     <Compile Include="04_VirtualMethodsInConstructor\BaseClass.cs" />
     <Compile Include="04_VirtualMethodsInConstructor\DerivedClass.cs" />
+    <Compile Include="05_CallerInfoAttributes\CallerInfoAttributeDemo.cs" />
     <Compile Include="IPerson.cs" />
     <Compile Include="01_DebuggerDIsplayAttribute\PersonWithoutDebuggerDisplay.cs" />
     <Compile Include="02_DebuggerBrowsableAttribute\PersonWithoutDebuggerBrowsable.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +60,7 @@
   <ItemGroup>
     <Content Include="03_NullCoalescingOperator\See Test Project.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

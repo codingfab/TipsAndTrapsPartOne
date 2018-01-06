@@ -54,6 +54,7 @@
     <Compile Include="01_DebuggerDisplayAttribute\DebuggerDisplayAttributeExample.cs" />
     <Compile Include="03_NullCoalescingOperator\NullCoalescingOperatorExample.cs" />
     <Compile Include="04_VirtualMethodsInConstructor\DontCallVirtualMethodsFromCtorExample.cs" />
+    <Compile Include="05_CallerInfoAttributes\CallerInfoAttributesExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
