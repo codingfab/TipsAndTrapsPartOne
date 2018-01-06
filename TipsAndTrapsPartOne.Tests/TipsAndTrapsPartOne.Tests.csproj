@@ -50,9 +50,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="DebuggerBrowsableAttributeExample.cs" />
-    <Compile Include="DebuggerDisplayAttributeExample.cs" />
-    <Compile Include="NullCoalescingOperatorExample.cs" />
+    <Compile Include="02_DebuggerBrowsableAttribute\DebuggerBrowsableAttributeExample.cs" />
+    <Compile Include="01_DebuggerDisplayAttribute\DebuggerDisplayAttributeExample.cs" />
+    <Compile Include="03_NullCoalescingOperator\NullCoalescingOperatorExample.cs" />
+    <Compile Include="04_VirtualMethodsInConstructor\DontCallVirtualMethodsFromCtorExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
